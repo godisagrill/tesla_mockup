@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+}
+
+body {
+margin: 0 !important;
+
+}
+
+/*adding TESLA font*/
+@font-face {
+    font-family: fontTesla;
+    src: url(font1.ttf);
+}
+
+/*red color of active page*/
+.navbar-default .navbar-nav>.active>a {
+  background-color: transparent;
+  color: red;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: #B70000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: transparent;
+  color: #a8a8a8;
+}
+
+.navbar-brand {
+  font-family: fontTesla;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.container {
+  font-family: Roboto;
+}
+
+#firstPage {
+  background: rgba(0,0,0,0.3);
+  height: 700px;
+  margin: auto;
+  padding-top: 200px;
+  color: white;
+  }
+
+#firstPage h1 {
+    font-size: 4em;
+    font-weight: 800;
+  }
+
+#firstPage p {
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-top: 30px;
+  background: red;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.btn:hover {
+  background: #B70000;
+}
+
+
+
+.navbar  {
+  padding-top: 20px;
+  background: none;
+  color: white;
+  margin-bottom: 0px;
+  background: rgba(0,0,0,0.3);
+  border-width: 0px;
+}
+
+/*tesla brand*/
+#brand {
+  color: white;
+  font-size: 3em;
+  letter-spacing: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-size: 1em;
+}
+
+#home {
+  margin-top: 0 !important;
+  background: url("https://carwow-uk-wp-1.imgix.net/Tesla-Model-S-Thumbnail.jpg?ixlib=rb-1.1.0&fit=crop&w=1600&h=800&q=60&cs=tinysrgb&auto=format");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h3 {
+  color: #686868;
+}
+
+/*ABOUT TESLA PART*/
+
+#about {
+  text-align: center;
+  color: #686868;
+}
+
+i.fa {
+  color: #686868;
+}
+
+#firstSectorheader {
+  margin-bottom: 50px;
+}
+
+/*JUMBOTRON PURCHASE*/
+
+#purchasejumbotron {
+  margin-top: 50px;
+  font-family: Roboto;
+  font-size: 2em;
+  padding: 20px 15%;
+  background: #2d2004;
+  color: white;
+}
+#purchasejumbotron a {
+  float: right;
+}
